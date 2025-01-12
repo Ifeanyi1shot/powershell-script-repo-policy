@@ -1,7 +1,7 @@
 # Variables
 $organizationName = "prolifiklexzy"
 $projectName = "rezumii"
-$personalAccessToken = "C39niNvfffBBd3dwTjIAPDGaSRTfC0nOf09bmopbatbqJ3mQBY9IJQQJ99ALACAAAAAAAAAAAAASAZDO4uHH"
+$personalAccessToken = ""
 
 # API URL for fetching policies
 $baseUrl = "https://dev.azure.com/$organizationName/$projectName/_apis/policy/configurations?api-version=7.1-preview.1"
@@ -22,7 +22,7 @@ $response.value | ForEach-Object { $_ | ConvertTo-Json -Depth 10 }
 # Variables
 #$organizationName = "prolifiklexzy"
 #$projectName = "rezumii"
-#$personalAccessToken = "C39niNvfffBBd3dwTjIAPDGaSRTfC0nOf09bmopbatbqJ3mQBY9IJQQJ99ALACAAAAAAAAAAAAASAZDO4uHH"
+#$personalAccessToken = ""
 
 # API URL for fetching policies
 #$baseUrl = "https://dev.azure.com/$organizationName/$projectName/_apis/policy/configurations?api-version=7.1-preview.1"
