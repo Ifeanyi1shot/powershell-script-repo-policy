@@ -2,7 +2,7 @@
 $organization = "prolifiklexzy"
 $project = "rezumii"
 $repository = "rezumii"  # Replace with your repository name
-$personalAccessToken = "C39niNvfffBBd3dwTjIAPDGaSRTfC0nOf09bmopbatbqJ3mQBY9IJQQJ99ALACAAAAAAAAAAAAASAZDO4uHH"
+$personalAccessToken = ""
 
 # Azure DevOps REST API endpoint
 $uri = "https://dev.azure.com/$organization/$project/_apis/git/repositories/$repository/refs?filter=heads&api-version=7.1-preview.1"
