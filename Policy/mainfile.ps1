@@ -1,9 +1,9 @@
 # Variables
 $organizationName = "prolifiklexzy"
 $projectName = "rezumii"
-$repositoryId = "a4cc437f-15cd-4004-b6fb-e6a6c95a20f3" # Replace with your repository ID
-$branchName = "refs/heads/Rezumii/Production"          # Target branch for the policy
-$personalAccessToken = "C39niNvfffBBd3dwTjIAPDGaSRTfC0nOf09bmopbatbqJ3mQBY9IJQQJ99ALACAAAAAAAAAAAAASAZDO4uHH"
+$repositoryId = "" # Replace with your repository ID
+$branchName = ""          # Target branch for the policy
+$personalAccessToken = ""
 
 # API URL
 $baseUrl = "https://dev.azure.com/$organizationName/$projectName/_apis/policy/configurations?api-version=7.1-preview.1"
