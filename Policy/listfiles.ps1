@@ -1,7 +1,7 @@
 # Variables
 $organizationName = "prolifiklexzy"
 $projectName = "rezumii"
-$personalAccessToken = "C39niNvfffBB..."  # Replace with your actual PAT
+$personalAccessToken = ""  # Replace with your actual PAT
 
 # API URL for listing available policy types
 $policyTypesUrl = "https://dev.azure.com/$organizationName/$projectName/_apis/policy/types?api-version=7.1-preview.1"
