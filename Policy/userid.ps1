@@ -1,5 +1,5 @@
-$organization = "prolifiklexzy"
-$personalAccessToken = "C39niNvfffBBd3dwTjIAPDGaSRTfC0nOf09bmopbatbqJ3mQBY9IJQQJ99ALACAAAAAAAAAAAAASAZDO4uHH"  # Replace with your PAT
+$organization = ""
+$personalAccessToken = ""  # Replace with your PAT
 
 # Azure DevOps Graph API URL
 $url = "https://vssps.dev.azure.com/$organization/_apis/graph/users?api-version=7.1-preview.1"
